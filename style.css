@@ -1,0 +1,41 @@
+body {
+  font-family: Arial;
+  background: #050b18;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard {
+  width: 800px;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #facc15;
+}
+
+.mine-map {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.zone {
+  width: 100px;
+  height: 100px;
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-weight: bold;
+}
